@@ -58,7 +58,7 @@ public static class ConfigureEndpoints
 services.AddSwaggerGen(
     c =>
     {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "Skytech Control Subscription Management API", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "Employee management API", Version = "v1" });
         c.RegisterSwaggerAuth();
     });
 
